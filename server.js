@@ -1,5 +1,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
+
 const LIMIT = 10;
 const PAGE = 1;
 
@@ -113,5 +114,5 @@ app.get('/todos', (req, res) => {
     console.log(results);
   
     res.status(200).json(results);
-    
+
 });
