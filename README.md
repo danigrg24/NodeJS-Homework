@@ -5,6 +5,7 @@ Base URL: http://localhost:3000
 Endpoints
 
 1. Create a New Todo
+
 Create a new todo item by sending a POST request to /todos endpoint.
 
 Endpoint: POST /todos
@@ -55,6 +56,7 @@ Body:
 ]
 
 3. Retrieve a Specific Todo by Its ID
+   
 Retrieve a specific todo item by its ID.
 
 Endpoint: GET /todos/:id
@@ -79,6 +81,7 @@ Body:
 }
 
 4. Update a Todo
+   
 Update an existing todo item by sending a PUT request to /todos/:id endpoint.
 
 Endpoint: PUT /todos/:id
@@ -118,6 +121,7 @@ Body:
 }
 
 5. Retrieve All Todos with Pagination Support
+
 Retrieve a list of all todo items with support for pagination.
 
 Endpoint: GET /todos
